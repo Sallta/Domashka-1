@@ -4,7 +4,7 @@
 // 8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите число больше 1");
-int number = Int32.Parse(Console.ReadLine()!);
+int number = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Чётные числа от 1 до " + number + ":");
 for (int i = 2; i <= number; i += 2)
